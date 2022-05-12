@@ -1,0 +1,13 @@
+.bg_navbar {
+    background-color: #F1F3FF;
+}
+
+.nav_link {
+    font-weight: 400;
+    color: black !important;
+    font-weight: 500;
+}
+
+.nav_link:hover {
+    color: #0D28A6 !important;
+}

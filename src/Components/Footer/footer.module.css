@@ -1,0 +1,24 @@
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav_footer li{
+    font-weight: 600;
+    margin: 10px 0px;
+    
+    
+}
+
+.address li{
+    margin: 10px 0px;
+}
+
+
+a:link {color: black;}      /* unvisited link */
+a:visited {color: black;}   /* visited link */
+a:hover {color: black;}     /* mouse over link */
+a:active {color: black;}    /* selected link */

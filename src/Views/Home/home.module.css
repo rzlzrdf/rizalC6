@@ -1,0 +1,52 @@
+.header{
+    background-color: #F1F3FF;
+
+}
+.herotitle{
+    font-weight: bold;
+    margin-top: 118px;
+}
+
+.herotitle2{
+    margin-top: 136px;
+}
+
+.heroimage{
+    max-width: 120%;
+    margin-top: 45px;
+}
+
+.heroimage2{
+    max-width: 80%;
+    margin-top: 100px;
+}
+
+.card__{
+    border-radius:8px;
+}
+
+.centang{
+    height: 20px;
+    margin-right: 13px;
+}
+ul{
+    
+}
+
+ li {
+     margin-bottom: 13px;
+ }
+
+ .whyus{
+    margin-top: 100px;
+ }
+
+ .card_cta {
+    background-color: #0D28A6;
+    border-radius: 10px !important;
+}
+
+.faq__{
+    background-color: transparent;
+    border-color: grey;
+}

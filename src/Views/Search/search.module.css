@@ -1,0 +1,17 @@
+.header{
+    background-color: #F1F3FF;
+
+}
+
+.blank_result {
+    height: 20vh;
+    background-color: #F1F3FF;
+    margin-bottom: -7vh;
+    position: relative;
+    z-index: -1;
+}
+
+.lists{
+    list-style: disc;
+    color: #8A8A8A;
+}

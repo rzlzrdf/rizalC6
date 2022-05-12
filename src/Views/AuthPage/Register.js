@@ -6,14 +6,14 @@ import logo from '../../Assets/Images/logo.svg'
 
 import style from './Auth.module.css'
 
-const Auth = () => {
+const Register = () => {
   return (
     <div id={style.login_container} className={'d-flex '}>
       <div id={style.hero_login}></div>
       <div id={style.login_form}>
         <div className={style.form + ' justify-content-center align-items-center'}>
           <img src={logo} className={style.fill} />
-          <h3 className={'fw-bold py-3'}>Welcome Admin BCR</h3>
+          <h3 className={'fw-bold py-3'}>Create New Account</h3>
           <Form>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Email</Form.Label>
@@ -25,15 +25,15 @@ const Auth = () => {
             </Form.Group>
             <div className="d-grid gap-2 py-3">
               <Button type='submit' className={style.login_button}>
-                Sign In
+                Register
               </Button>
             </div>
           </Form>
-          <a href='/register' className={'text-muted text-center fw-light'}>buat akun baru!</a>
+          <a href='/auth' className={'text-muted text-center fw-light'}>Saya punya akun!</a>
         </div>
       </div>
     </div>
   )
 }
 
-export default Auth
+export default Register

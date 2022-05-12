@@ -1,0 +1,32 @@
+
+
+.ddown{
+    border-color: blue;
+}
+.searchbox_active {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.searchbox_edit {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.searchbox_disable {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+@media screen and (min-width: 992px) {
+    .searchbox_active {
+        margin-top: -6vh;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 100px;
+    }
+}
+

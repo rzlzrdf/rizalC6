@@ -1,0 +1,37 @@
+.cardcar_box {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.name_cardresult {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.price_cardresult {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.desc_cardresult {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.name_carddetail {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.price_carddetail {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.desc_carddetail {
+    font-weight: 400;
+    font-size: 14px;
+    color: #8A8A8A;
+}
+
