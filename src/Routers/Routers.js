@@ -1,9 +1,9 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
-import Auth from '../Views/Auth'
-import Dashboard from '../Views/Dashboard'
-import Landing from '../Views/Landing'
+import Auth from '../Views/AuthPage/Auth'
+import Dashboard from '../Views/Dashboard/Dashboard'
+import Landing from '../Views/LandingPage/Landing'
 
 export const Routers = () => {
     return (
