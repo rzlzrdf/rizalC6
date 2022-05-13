@@ -1,11 +1,17 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Container, Navbar , Nav, Button} from 'react-bootstrap'
+import { useSelector } from 'react-redux'
+import { Link } from 'react-router-dom'
 
 import Logo from '../Images/logo.svg'
 import style from './navibar.module.css'
 
 
 const NavibarHome = () => {
+
+  const user = useSelector (store => store.user.data)
+  
+ 
   return (
     <div>
         <Navbar className={style.bg_navbar} expand="lg">
@@ -18,7 +24,8 @@ const NavibarHome = () => {
                             <Nav.Link className={'my-auto ' + style.nav_link} href="#">Why Us</Nav.Link>
                             <Nav.Link className={'my-auto ' + style.nav_link} href="#">Testimonial</Nav.Link>
                             <Nav.Link className={'my-auto ' + style.nav_link} href="#">FAQ</Nav.Link>
-                            <Nav.Link className={'my-auto ' + style.nav_link} href="/register"><Button variant='success'>Register</Button></Nav.Link>
+                            { user === null && <Nav.Link className={'my-auto ' + style.nav_link} href="/register"><Button variant='success'>Register</Button></Nav.Link>}
+                            { user !== null && <Nav.Link className={'my-auto ' + style.nav_link} href="/"><Button variant='danger'>Logout</Button></Nav.Link> } 
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
