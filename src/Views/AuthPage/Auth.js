@@ -1,6 +1,5 @@
 import React from 'react'
-import { Button, Container, Row, Col, Form } from 'react-bootstrap'
-import heroauth from '../../Assets/Images/hero-auth.svg'
+import { Button, Form } from 'react-bootstrap'
 import logo from '../../Assets/Images/logo.svg'
 
 
@@ -12,7 +11,7 @@ const Auth = () => {
       <div id={style.hero_login}></div>
       <div id={style.login_form}>
         <div className={style.form + ' justify-content-center align-items-center'}>
-          <img src={logo} className={style.fill} />
+          <a href="/"><img src={logo} className={style.fill} /></a>
           <h3 className={'fw-bold py-3'}>Welcome Admin BCR</h3>
           <Form>
             <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -29,7 +28,7 @@ const Auth = () => {
               </Button>
             </div>
           </Form>
-          <a href='/register' className={'text-muted text-center fw-light'}>buat akun baru!</a>
+          <a href='/register' className={'text-muted text-center fw-lighter'}>Create new account</a>
         </div>
       </div>
     </div>
